@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retrieval-Augmented Generation (RAG) System for Sustainability Insights</title>
+  <link rel="stylesheet" href="../css%20&%20js/project_styles.css">
+</head>
+  
+  
+<body>
+  <div class="container">
+    <h1>🧠 Retrieval-Augmented Generation (RAG) System for Sustainability Insights </h1>
+    
+    
+    <h3>
+      This project implements a RAG system that allows users to ask questions about the Future of Sustainability 2025 whitepaper and receive AI-generated answers based strictly on the document content. It combines semantic retrieval with generative AI to support accurate and contextual responses.    
+    </h3>
+    
+    <br>
+    
+    <p><strong>🛠️ Key Features & Workflow: </strong> <p>
+    <ul>
+      <li><strong>PDF Document Loader:</strong> 
+        Loads the sustainability whitepaper into memory.      
+      </li>
+      <li><strong>Text Chunking & Embedding:</strong> 
+        Splits the document and encodes it using BAAI/bge-base-en-v1.5.
+      </li>
+      <li><strong>Milvus Vector Database:</strong> 
+        Stores embeddings and enables similarity search to retrieve top-k relevant context.
+      </li>
+      <li><strong>LLM Answer Generation:</strong> 
+        Uses Google’s flan-t5-large model to generate answers from retrieved context.
+      </li>
+      <li><strong>Strict Prompting Logic:</strong> 
+        Ensures responses are grounded only in verified document content.
+      </li>
+      <li><strong>Streamlit Web Interface:</strong> 
+        Users can interact with the system in a clean, browser-based demo.
+      </li>
+    </ul>
+    
+    <br>
+    
+    <p><strong>🧰 Tools & Technologies：</strong> <p>
+    <ul>
+      <li><strong>Language Models: </strong> 
+        flan-t5-large (Hugging Face)
+      </li>
+      <li><strong>Embedding Models: </strong> 
+        BAAI/bge-base-en-v1.5
+      </li>
+      <li><strong>Embedding Models: </strong> 
+        Vector Store: Milvus
+      </li>
+      <li><strong>Interface: </strong> 
+        Streamlit
+      </li>
+      <li><strong>Supporting libraries:  </strong> 
+        Langchain, SentenceTransformers, PyPDFLoader, etc.
+      </li>
+    </ul>
+    
+    <br>
+    
+    <p><strong>👩‍💻 My Work：</strong> <p>
+    <ul>
+      <li>
+        Built the full RAG pipeline from document loading to context retrieval and answer generation
+      </li>
+      <li>
+        Designed and implemented the strict prompt protocol for fact-based responses
+      </li>
+      <li>
+        Integrated Milvus with embedding generation for scalable similarity search
+      </li>
+      <li>
+        Developed the interactive Streamlit frontend for live demonstrations
+      </li>
+    </ul>
+    
+    <br>
+    
+    <p><strong>🌟 Outcome：</strong> <p>
+    <ul>
+      <li>
+        Delivered a fully functional demo of an intelligent Q&amp;A system grounded in sustainability data
+      </li>
+      <li>
+        Demonstrated clear understanding of deep learning, vector search, and prompt engineering      
+      </li>
+    </ul>
+    
+    <br>
+    
+    <p> <a href="https://github.com/Jenny-rib/Deep_Learning.git" target="_blank">Click here to view GitHub</a></p>
+    <p><a href="DeepLearning_slide.pdf" target="_blank">Click here to view the slide</a></p>
+    <a class="back" href="../index.html">← Return</a>
+  </div>
+</body>
+</html>
